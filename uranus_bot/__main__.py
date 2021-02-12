@@ -1,4 +1,4 @@
-""" Xiaomi Geeks Telegram Bot"""
+""" MIUI rom download Telegram Bot"""
 from subprocess import Popen, PIPE
 
 cmds_list = ['python -m telegram_bot', 'python -m discord_bot']
