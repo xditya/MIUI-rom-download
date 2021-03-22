@@ -1,0 +1,54 @@
+{
+    "name": "miui rom download bot",
+    "description": "A bot to can download miui rom various devices..",
+    "logo": "https://telegra.ph/file/4c866b05343513df4025d.jpg",
+    "keywords": [
+        "Miui",
+        "Miui 12",
+        "Telegram Bot",
+        "OMG_info"
+    ],
+    "website": "https://omginfotk.wordpress.com/",
+    "repository": "https://github.com/lusifernoob/MIUI-rom-download",
+    "success_url": "https://telegram.dog/OMG_info",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "You Telegram Bot Token from @BotFather",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API Hash from my.telegram.org or @UseTGXBot",
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "Your APP ID from my.telegram.org or @UseTGXBot",
+            "value": ""
+        },
+        "tg_bot_admins": {
+            "description": "Id of users that can use the bot, from @MissRose_bot by /id command",
+            "value": ""
+        },
+        "tg_bot_id":  {
+            "description": " add bot I'd  "
+              "value": ""
+        },
+        "tg_bot_extra": {
+           " description": " do not edit this "
+            "value": "False"
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        },
+        {
+            
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
