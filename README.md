@@ -31,6 +31,8 @@ The whole bot functions in this repo, which are licensed under GPL3, are based o
 
 However, [the telegram bot](https://t.me/XiaomiGeeksBot) may contain some other features that are not available in this code, like the Admins module.
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 ### Bot features:
 
 This chat bot aims to provide easy access for all the stuff that Xiaomi users need, starting from guides and tools, and ending with advanced things like custom recovery and firmware.
