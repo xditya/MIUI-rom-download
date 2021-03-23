@@ -35,7 +35,7 @@
         "tg_bot_extra": {
            " description": " do not edit this "
             "value": "False"
-    },
+    }
     "addons": [],
     "buildpacks": [
         {
