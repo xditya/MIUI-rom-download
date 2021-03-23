@@ -12,43 +12,63 @@
     "repository": "https://github.com/lusifernoob/MIUI-rom-download",
     "success_url": "https://telegram.dog/OMG_info",
     "env": {
-        "BOT_TOKEN": {
-            "description": "You Telegram Bot Token from @BotFather",
+        "api_hash": {
+            "description": "You API HASH from my.telegram.org",
             "value": ""
         },
-        "API_HASH": {
-            "description": "Your API Hash from my.telegram.org or @UseTGXBot",
-            "value": ""
+        "api_key": {
+            "description": "You API ID from my.telegram.org",
+            "value": "1111111"
         },
-        "APP_ID": {
-            "description": "Your APP ID from my.telegram.org or @UseTGXBot",
-            "value": ""
+        "tg_bot_token": {
+            "description": "Bot token, get it from @BotFather.",
+            "value": "",
+            "required": false
+        },
+        "tg_bot_id": {
+            "description": "",
+            "value": "1111111",
+            "required": false
+        },
+        "tg_bot_db": {
+            "description": "",
+            "value": "",
+            "required": false
         },
         "tg_bot_admins": {
-            "description": "Id of users that can use the bot, from @MissRose_bot by /id command",
-            "value": ""
-        },
-        "tg_bot_id":  {
-            "description": " add bot I'd  "
-              "value": ""
+            "description": "",
+            "value": "",
+            "required": false
         },
         "tg_bot_extra": {
-           " description": " do not edit this "
-            "value": "False"
-    }
-    "addons": [],
+            "description": "",
+            "value": "False",
+            "required": false
+        },
+        "discord_bot_token": {
+            "description": "",
+            "value": "",
+            "required": false
+        },
+        "discord_bot_db": {
+            "description": "",
+            "value": "",
+            "required": false
+        },
+        "discord_bot_admins": {
+            "description": "",
+            "value": "",
+            "required": false
+        },
+        "sentry_sdk_key": {
+            "description": "",
+            "value": "",
+            "required": false
+        }
+    },
     "buildpacks": [
         {
             "url": "heroku/python"
         }
-        {
-            
-        }
-    ],
-    "formation": {
-        "worker": {
-            "quantity": 1,
-            "size": "free"
-        }
-    }
+    ]
 }
